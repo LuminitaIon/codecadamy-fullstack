@@ -1,0 +1,227 @@
+/* FONT FILES */
+
+@font-face {
+    font-family: 'assistant';
+    src: url('fonts/Assistant/Assistant-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/Assistant/Assistant-VariableFont_wght.woff') format('woff');
+    src: url('fonts/Assistant/Assistant-VariableFont_wght.woff2') format('woff2');
+    src: url('fonts/Assistant/Assistant-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'catamaran';
+    src: url('fonts/Catamaran/Catamaran-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/Catamaran/Catamaran-VariableFont_wght.woff') format('woff');
+    src: url('fonts/Catamaran/Catamaran-VariableFont_wght.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'sahitya';
+    src: url('fonts/Sahitya/Sahitya-Regular.ttf') format('');
+    src: url('fonts/Sahitya/Sahitya-Regular.woff') format('');
+    src: url('fonts/Sahitya/Sahitya-Regular.woff2') format('');
+    src: url('fonts/Sahitya/Sahitya-Bold.ttf') format('truetype');
+    src: url('fonts/Sahitya/Sahitya-Bold.woff') format('woff');
+    src: url('fonts/Sahitya/Sahitya-Bold.woff2') format('woff2');
+}
+
+body {
+    font-family: 'assistant';
+    background-color: #b8b6b4;
+    color: #161716;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h1.pagetitle {
+    text-align: center;
+    font-size: 72px;
+    color: #A84D02;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: left;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.fonts,
+.colours,
+.textstyle,
+footer {
+    border: solid #161716 5px;
+    margin: 30px 30px;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 30px;
+}
+
+
+/* FONT SECTION */
+
+.fonts h4 {
+    text-decoration: underline;
+}
+
+.assistantfont {
+    font-family: 'assistant', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.catamaranfont {
+    font-family: 'catamaran', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.sahityafont {
+    font-family: 'sahitya', serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.italicfont {
+    font-style: italic;
+}
+
+.boldfont {
+    font-weight: bold;
+}
+
+.assistantfont,
+.catamaranfont,
+.sahityafont {
+    float: left;
+    margin: auto;
+    padding: 6px;
+}
+
+
+/* COLOUR SECTION */
+
+.colours {
+    text-align: center;
+}
+
+.cbsunorange,
+.cbbatblack,
+.cbstrongteabrown,
+.cbdeepoceanblue,
+.cbburntgrey {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: solid 2px #FFFFFF;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.cbsunorange {
+    background-color: #F48036;
+}
+
+.cbbatblack {
+    background-color: #161716;
+}
+
+.cbstrongteabrown {
+    background-color: #A84D02;
+}
+
+.cbdeepoceanblue {
+    background-color: #1DA4A8;
+}
+
+.cbburntgrey {
+    background-color: #B8B6B4;
+}
+
+.sunorangeuse,
+.batblackuse,
+.strongteabrownuse,
+.deepoceanblueuse,
+.burntgreyuse {
+    color: #FFFFFF;
+    text-align: left;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+.sunorangeuse {
+    background-color: #F48036;
+    border: solid 2px #FFFFFF;
+    border-radius: 20px;
+}
+
+.batblackuse {
+    background-color: #161716;
+    border: solid 2px #FFFFFF;
+    border-radius: 20px;
+}
+
+.strongteabrownuse {
+    background-color: #A84D02;
+    border: solid 2px #FFFFFF;
+    border-radius: 20px;
+}
+
+.deepoceanblueuse {
+    background-color: #1DA4A8;
+    border: solid 2px #FFFFFF;
+    border-radius: 20px;
+}
+
+.burntgreyuse {
+    background-color: #B8B6B4;
+    border: solid 2px #FFFFFF;
+    border-radius: 20px;
+}
+
+
+/* TEXT STYLES SECTION */
+
+.textstyle ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.h1heading,
+.h2subheading,
+.h3heading,
+.h4heading,
+.paragraphelements {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid 4px #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    min-height: 320px;
+    vertical-align: top;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    color: #1DA4A8;
+}
